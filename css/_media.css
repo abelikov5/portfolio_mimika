@@ -1,0 +1,88 @@
+@media (max-width: 900px)  {
+    .container {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    .photo .left_part {
+        width: 40%;
+        /* display: none; */
+    }
+    .photo h1 {
+        font-size: 40px;
+    }
+    .photo .text_photo{
+        font-size: 16px;
+    }
+    .photo .rigth_part {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .photo .left_part {
+        display: none;
+    }
+    .media_photo {
+        display: block;
+    }
+    .photo .rigth_part {
+        width: 100%;
+    }
+    .photo_promo .wrap_gal {
+        display: block;
+        height: 600px;
+    }
+    .photo_promo {
+        min-height: 1200px;
+    }
+    .photo_promo .gal_600, .gal_300 {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+
+    .contact .cont_left {
+        width: 100%;
+    }
+    .media_contact {
+        display: block;
+    }
+    .contact .cont_right {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    .media_photo h1 {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .media_photo {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .media_contact h2 {
+        /* color: #fff; */
+        font-size: 40px;
+    }
+
+    .about_me {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .photo {
+        min-height: 500px;
+    }
+    .photo .rigth_part {
+        min-height: 500px;
+    }
+
+}
